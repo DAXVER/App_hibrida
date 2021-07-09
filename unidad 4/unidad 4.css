@@ -1,0 +1,159 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	
+}
+
+
+.img{
+	width: 1350px;
+	margin-left: 0px;
+	position: fixed;	
+}
+
+
+.menu{
+	margin-top: 0px;
+	position: fixed;
+	width: 170px;
+	height: 100%;
+	background-color: green;
+	margin-top: 68px
+}
+
+
+ul, li{
+	list-style: none;
+}
+
+.navsup{
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 170px;
+	position: fixed;
+	margin-top: 68px;
+	background-color: black;
+}
+
+.navsup li a{
+	
+	color: white;
+	text-decoration: none;
+	padding: 10px 65px;
+	display: block;
+	height: 30px;
+
+}
+
+.navsup li a:hover {
+	background-color: green;
+	transition: .5s;
+}
+
+.navsup > li{
+	float: left;
+}
+
+.unidad{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 170px;
+	height: 75px;
+	background-color: red;
+	
+}
+
+.contenido{
+	
+	margin-left: 250px;
+	margin-top: 20px;
+	width: 1000px;
+	font-size: 15px
+
+
+}
+
+.texunidad{	
+	margin-left: 2px;
+	font-size: 20px;
+	color: white;
+}
+
+.titulo{
+	font-size: 50px;
+}
+
+.nav{
+	margin-left: 10px;
+}
+
+.nav li a{	
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+.nav li{
+	margin-top: 10px;
+	font-size: 12px
+
+}
+
+.nav li ul li{
+		margin-top: 10px;
+		font-size: 13px;
+}
+
+.nav li a:hover{
+	background-color: black;
+	transition: .5s;
+
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;	
+	min-width: 140px;
+
+}
+
+.punto1{
+	margin-top: 30px;
+	margin-left: 10px
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav li ul{
+	position: relative;	
+}
+
+.nav li ul{
+	right: -50px;
+	
+}
+
+.nav li ul{
+	background-color: green;
+}
+
+.punto{
+	margin-left: 10px
+}
+
+ul li{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
